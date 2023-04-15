@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.nav-header {
+}
+.nav-caontainer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 10px 0px;
+  width: 90%;
+  margin: auto;
+}
+.logo-continer {
+  display: flex;
+  align-items: center;
+}
+.logo-img {
+  width: 25px;
+  margin-right: 5px;
+}
+.lolo-text {
+  color: #12022f;
+  font-size: 14px;
+  font-weight: 700;
+}
+.nav-items-menu {
+  list-style-type: none;
+  padding: 0px;
+  /* margin: 0px; */
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: #12022f;
+  font-size: 14px;
+  font-weight: 900;
+}
+li {
+  margin-right: 10px;
+}
+@media screen and (min-width: 450px) {
+  .nav-link {
+    font-size: 18px;
+  }
+}

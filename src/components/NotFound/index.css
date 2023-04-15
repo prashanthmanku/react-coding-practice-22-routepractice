@@ -1,0 +1,18 @@
+/* Write your CSS code here */
+.not-fount-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.not-found-img {
+  width: 170px;
+}
+.not-found-heading {
+  color: #551e53;
+  font-size: 25px;
+  font-weight: 500;
+}
